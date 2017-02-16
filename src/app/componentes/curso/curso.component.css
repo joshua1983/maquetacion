@@ -1,0 +1,19 @@
+#carta{
+    box-shadow: 2px 2px 2px 2px #888888;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+#carta-img{
+    text-align: center; 
+}
+#circulo{
+    width: 30px;
+     height: 32px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e9b104;
+}

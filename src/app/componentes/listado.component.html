@@ -1,0 +1,13 @@
+<div class="row" id="listado-cursos">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+        <h2>CURSOS Y RECURSOS SUGERIDOS </h2>
+        <ul *ngFor="let cur of CURSOS">
+            <curso-aulas [curso] = "cur" ></curso-aulas>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+            <br>
+    </div>
+</div>

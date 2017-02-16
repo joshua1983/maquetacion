@@ -1,0 +1,37 @@
+<div class="row">
+<div id="carta" class="col-xs-3 col-md-3 col-lg-3">
+    <div class="col-xs-12 col-md-12 col-lg-12" style="text-align: right" >
+        <img src="img/i_botones2.png" />
+    </div>
+    <div id="carta-img" class="col-xs-12 col-md-12 col-lg-12">
+        <img [src]="curso.imagen" />
+    </div>
+
+    <div class="row" >
+        <div  class="col-xs-12 col-md-12 col-lg-12">
+            
+            <br>
+            {{curso.nombre}}<br>
+            Area: {{curso.area}} <br>
+            Nivel: <span *ngFor="let nivel of curso.niveles"> {{ nivel }}</span>
+            <br><br>
+        </div>
+         <div  class="col-xs-12 col-md-12 col-lg-12">
+             <div class="col-xs-3 col-md-3 col-lg-3">
+                 <span><img src="img/i_bandera.png" /></span><span>30</span>
+             </div>
+             <div class="col-xs-3 col-md-3 col-lg-3">
+                 <span><img src="img/i_carita.png" /></span><span>3500</span>
+             </div>
+             <div class="col-lg-3 col-md-3 col-xs-3"></div>
+             <div class="col-xs-2 col-md-2 col-lg-2">
+                 <div id="circulo">
+                    <img src="img/i_botones1.png" />
+                </div>
+             </div>
+
+        </div>
+
+    </div> 
+</div>
+</div>

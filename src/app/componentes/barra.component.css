@@ -1,0 +1,10 @@
+#barra_superior{
+    background-color: #fbbe03;
+    box-shadow: 5px 5px 2px #888888;
+}
+#banner_principal{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-content: center;
+}

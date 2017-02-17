@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AutenticacionService } from './servicios/login.service';
+import { Usuario} from './commons/usuario';
 
 @Component({
     moduleId: module.id,
@@ -9,6 +10,13 @@ import { AutenticacionService } from './servicios/login.service';
 })
 
 export class LoginComponent{
-    usuario: string
-    clave: string
+    usuario: Usuario;
+    constructor(private Autenticacion: AutenticacionService){
+
+    }
+    autenticar(){
+
+        this.usuario = this.Autenticacion.autenticar();
+        
+    }
 }

@@ -2,12 +2,16 @@
     <div id="barra_superior" class="col-xs-12 col-lg-12 col-md-12">
         <div class="col-xs-1 col-lg-1 col-md-1">
         </div>
-        <div class="col-xs-10 col-lg-10 col-md-10">
+        <div class="col-xs-9 col-lg-9 col-md-9">
             <img src="img/logo1.png" alt="aulas-amigas-logo" />
         </div>
         <div class="col-xs-1 col-md-1 col-lg-1">
             <img src="img/i_campana.png" />
         </div>
+        <div class="col-xs-1 col-md-1 col-lg-1" *ngIf="usuario.valido">
+            <img src="img/i_user.png" />
+        </div>
+        
     </div>
 </div>
 <div class="row">

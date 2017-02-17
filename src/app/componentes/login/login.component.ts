@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { AutenticacionService } from './servicios/login.service';
-import { Usuario} from './commons/usuario';
+import { AutenticacionService } from '../servicios/login.service';
+import { Usuario} from '../commons/usuario';
 
 @Component({
     moduleId: module.id,

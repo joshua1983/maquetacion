@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './componentes/app.component';
-import { LoginComponent } from './componentes/login.component';
+import { LoginComponent } from './componentes/login/login.component';
 import { BarraComponent } from './componentes/barra.component';
 import { ListadoComponent } from './componentes/listado.component';
 import { CursoComponent } from './componentes/curso/curso.component'
